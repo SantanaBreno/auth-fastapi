@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "auth-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["SantanaBreno <breno.lima@sou.inteli.edu.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-multipart = "^0.0.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
